@@ -1,0 +1,16 @@
+﻿main() {
+    var i, j;
+
+    j = 0;
+    
+    for(i = 0; i < 10; i++) {
+        OutputText("Hello World!");
+
+        j = 3 * (i + 2);
+
+        if(j == 15)
+            OutputText("J is 15 now!");
+    }
+    OutputText("We're done! The value of j is: ");
+    OutputValue(j);
+}

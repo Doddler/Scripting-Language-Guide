@@ -1,0 +1,51 @@
+//var i is id 0
+//var j is id 1
+Val 0
+Assign 1
+Val 0
+Assign 0
+:Label0
+GetVar 0
+Push 0
+Val 10
+Pop 1
+LessThan 0
+JumpNotIf 1
+Val 0
+Push 0
+Val 1
+Func 0
+Val 3
+Push 0
+GetVar 0
+Push 0
+Val 2
+Pop 1
+Add 0
+Pop 1
+Mul 0
+Assign 1
+GetVar 1
+Push 0
+Val 15
+Pop 1
+Equals 0
+JumpNotIf 2
+Val 1
+Push 0
+Val 1
+Func 0
+Jump 3
+:Label2
+:Label3
+Inc 0
+Jump 0
+:Label1
+Val 2
+Push 0
+Val 1
+Func 0
+GetVar 1
+Push 0
+Val 1
+Func 1
